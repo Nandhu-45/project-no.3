@@ -1,0 +1,5 @@
+.bg{
+  background-image: url("image.png");
+  background-size: cover;
+  min-height: 650px;
+}

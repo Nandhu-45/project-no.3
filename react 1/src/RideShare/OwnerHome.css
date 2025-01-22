@@ -1,0 +1,167 @@
+.card{
+    border: 2px solid lightgreen ;
+    float: left ;
+    background-color: beige t;
+    height: 350px ;
+    width: 100% ;
+    margin: 10px;
+    border-radius: 20px ;
+    max-height: fit-content ;
+    padding-bottom: 40px;
+
+}
+.card img{
+    border-bottom: 2px lightgreen solid;
+    width: 100%;
+    height: 50%;
+
+}
+
+.book-btn button{
+    border: 2px rgb(55, 0, 255) solid;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    margin: 20px;
+    border-radius: 20px;
+    color: rgb(234, 10, 215);
+    box-shadow: rgb(66, 23, 186) -5px -5px 6px;
+}
+
+.modal-container{
+    border: 2px solid blue;
+    padding: 40px;
+    padding-left: 0px;
+    background-color: beige;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height:80%;
+    width: 80%;
+    margin-left: 50px;
+    
+    box-shadow: blue -5px -5px 7px;
+}
+
+.modal-container div{
+    width: 100%;
+    margin: 20px;
+     
+}
+
+.modal-container div span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.modal-container div input{
+    background-color: beige;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+
+.modal-container div select{
+    background-color: beige;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 80%;
+}
+
+video {
+    margin-left: 70px;
+    width: 1100px;
+    max-height: fit-content;
+    
+    
+
+}
+
+video h4{
+    width: 50px;
+    font-size: 50px;
+    word-wrap: break-word;
+    color: rgb(224, 5, 173);
+    text-align: left;
+}
+
+.oList .sli{
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.oList li{
+    
+    
+    margin-bottom: 5px;
+}
+
+.oList .li{
+    
+    
+    border: 1px solid purple;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 40% ; 
+}
+
+.oList li button{
+    
+    margin: 10px;
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: red 5px 5px 5px;
+
+
+
+}
+
+.oList li .confirm{
+    border: 2px solid rgb(68, 0, 255) !important;
+    box-shadow: rgb(17, 0, 255) 5px 5px 5px !important;
+
+}
+
+.oList li button{
+    width: 100%;
+}
+
+.logoout{
+    margin-top: 20px;
+}
+
+.navbar .container-fluid svg{
+    width: 50px;
+    font-size: 50px;
+    color: rgb(16, 5, 224);
+    animation: animate 1.5s linear infinite;
+    
+}
+
+@keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 0.7;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+  .text{
+    border: none;
+  }
+
+  .alert button{
+    margin-left: 100px;
+  }
+
+  .vehicle{
+    float: left !important;
+  }
